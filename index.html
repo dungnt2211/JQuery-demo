@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Units</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper-page">
+      <div class="sidebar">
+        <ul>
+          <li><a data-step="step-1" href="javascript:void(0)">Home</a></li>
+          <li><a data-step="step-2" href="javascript:void(0)">Skill</a></li>
+          <li>
+            <a data-step="step-3" href="javascript:void(0)">My Project</a>
+          </li>
+          <li><a data-step="step-4" href="javascript:void(0)">Contact</a></li>
+          <li><a data-step="step-5" href="javascript:void(0)">Message</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <button class="btn btn-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="main-content">
+          <div class="step step-1">
+            <img src="./assets/images/bg1.png" alt="bg-banner" />
+            <div class="text-box">
+              <div class="wrap-flex">
+                <span> </span>
+                <p>Frontend Development</p>
+                <h2>Koodinh</h2>
+                <h4>Code như làm thơ, Coder như nghệ sĩ</h4>
+                <button class="">About Me...</button>
+              </div>
+            </div>
+            <div class="decor">
+              <img src="./assets/images/bg2.png" alt="decor-tree" />
+            </div>
+            <div class="dom-dom">
+              <div class="d-dom d1"></div>
+              <div class="d-dom d2"></div>
+              <div class="d-dom d3"></div>
+              <div class="d-dom d4"></div>
+            </div>
+          </div>
+          <div class="step step-2"></div>
+          <div class="step step-3"></div>
+          <div class="step step-4"></div>
+          <div class="step step-5">
+            <br />
+            <div class="wrapper">
+              <h3>Send Me An Message</h3>
+              <input class="ip-name" type="te xt" placeholder="your name" />
+              <input
+                class="ip-subject"
+                type="subject"
+                placeholder="your subject"
+              />
+              <input class="ip-email" type="email" placeholder="your email" />
+              <input class="ip-phone" type="number" placeholder="your phone" />
+              <textarea
+                class="ip-mess"
+                rows="4"
+                placeholder="message"
+              ></textarea>
+              <p class="err-mess"></p>
+              <button class="btn-send">Gửi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav">
+        <button class="prev">PREV</button>
+        <div class="dots"></div>
+        <button class="next">NEXT</button>
+      </div>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
